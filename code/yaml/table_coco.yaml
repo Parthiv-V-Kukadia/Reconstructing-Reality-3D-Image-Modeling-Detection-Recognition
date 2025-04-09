@@ -1,0 +1,15 @@
+# Paths to your dataset
+path: /content/drive/MyDrive/Colab Notebooks/ME6402 Project/coco # Replace with the path to your COCO dataset root directory
+train: images/subset3000_table_train2017  # Relative path to training images
+val: images/subset3000_table_val2017      # Relative path to validation images
+#test: images/test2017    # Relative path to test images
+
+# Path to annotations (for COCO format datasets)
+annotations:
+  train: coco/annotations/subset3000_table_filtered_instances_train2017.json
+  val: coco/annotations/subset3000_table_filtered_instances_val2017.json
+  #test: coco/annotations/image_info_test2017.json
+
+# Class names (only chairs and dining tables)
+names:
+  0: dining table
