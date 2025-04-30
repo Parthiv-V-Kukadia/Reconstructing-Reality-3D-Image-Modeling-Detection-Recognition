@@ -1,0 +1,22 @@
+# Core computer vision and deep learning
+opencv-python>=4.5.0  # OpenCV for image/video processing
+ultralytics>=8.0.0    # YOLOv8 with CUDA acceleration
+torch>=1.9.0          # PyTorch (with CUDA) - install from https://pytorch.org/get-started/locally/
+torchvision>=0.10.0   # For COCO, models, transforms
+pycocotools>=2.0.0    # For COCO annotations
+
+# 3D processing and file handling
+open3d>=0.13.0        # Point cloud processing
+plyfile>=0.7.0        # .ply file reading
+
+# Utilities and tools
+argparse>=1.4.0       # Command-line parsing
+pyyaml>=5.4.0         # YAML support
+tqdm>=4.62.0          # Progress bars
+scikit-learn>=0.24.0  # Metrics
+glob2>=0.7.0          # File pattern matching
+google-colab-patches>=0.0.1  # Colab-specific patches
+
+# Custom submodules
+-e core/submodules/diff-gaussian-rasterization
+-e core/submodules/simple-knn 
