@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/home/GS/images', model_path='../images/output', images='images', depths='', resolution=-1, white_background=True, train_test_exp=False, data_device='cuda', eval=False)
